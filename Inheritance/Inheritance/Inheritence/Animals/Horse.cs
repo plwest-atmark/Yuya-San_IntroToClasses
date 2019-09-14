@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IntroToClasses.Inheritence
+namespace Inheritence.Animals
 {
-    class Dog : Animal
+    class Horse : Animal // See the "Cat" class for details
     {
         public override void MakeAnimalSound()
         {
-            Console.WriteLine("Woof!");
+            Console.WriteLine("Neeeeeh!");
         }
         public override void PerformAnimalAction()
         {
-            Console.WriteLine("Chase Cat.");
+            Console.WriteLine("Swat flies with tail.");
         }
     }
 }

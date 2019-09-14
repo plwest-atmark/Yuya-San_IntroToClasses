@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace IntroToClasses.Inheritence
+namespace Inheritence.Animals
 {
     /// <summary>
     /// Class that represents a Cat object.
