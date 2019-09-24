@@ -17,12 +17,15 @@ namespace Inheritance
             // In other words, we want to create dogs, cats and horses and store them all in the same list. 
 
             // This is what we call "Inheritence" and "Polymorphism"
-
+            
             List<Animal> animals = new List<Animal>();  // Create a new list of the <Animal> type
 
             animals.Add(new Cat());
             animals.Add(new Dog());
             animals.Add(new Horse());
+            animals.Add(new Donkey());
+            animals.Add(new Pig());
+
 
             // Our list now has 3 different types of animals.  They each do different things, but are "stored" in the same list.
             // They also function the same, so we can use the "base" class methods on ALL of them. However, what each of them do is different.
@@ -43,7 +46,7 @@ namespace Inheritance
                 //  the "base" class method will be used.
                 animal.Sleep();
 
-                Console.WriteLine();  // Create a new line so we can see a space between each animal in the console.
+                Console.WriteLine("----------------------------------");  // Create a new line so we can see a space between each animal in the console.
             }
 
 

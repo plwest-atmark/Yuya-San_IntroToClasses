@@ -107,17 +107,102 @@ namespace ClassesAndMethods.NonStaticClasses
 
 
         // Let's add the methods for "subtraction", "multiplication" and "division" below this line
+
         // ----------------------------------------------------------------------------------------
 
 
         // subtraction methods
+        public int SubInt(int a, int b)
+        {
+            return a - b;
+        }
 
+        public double SubDouble(double a, double b)
+        {
+            return a - b;
+        }
+
+        public Decimal SubDecimal(decimal a, decimal b)
+        {
+            return a - b;
+        }
 
         // multiplicaton methods
+        public int MulInt(int a, int b)
+        {
+            return a * b;
+        }
 
+        public int MulInt(int a, int b, int c)
+        {
+            return a * b * c;
+        }
 
+        public double MulDouble(double a, double b)
+        {
+            return a * b;
+        }
+        
+        public double MulDouble(double a, double b, double c)
+        {
+            return a * b * c;
+        }
+
+        public double MulDouble(double a, double b, double c, double d)
+        {
+            return a * b * c * d;
+        }
+
+        public decimal MulDecimal(decimal a, decimal b)
+        {
+            return a * b;
+        }
+
+        public decimal MulDecimal( decimal a, decimal b, decimal c)
+        {
+            return a * b * c;
+        }
         // division methods
 
+        public int DivInt(int a, int b)
+        {
+            return a / b;
+        }
+        
+        
 
+        public double DivDouble(double a, double b)
+        {
+            return a / b;
+        }
+        
+        public decimal DivDecimal(decimal a, decimal b)
+        {
+            return a / b;
+        }
+
+        
+        public int RemInt(int a, int b)
+        {
+            return a % b;
+        }
+        
+        public double  RemDouble (double a, double b)
+        {
+            return a % b;
+        }
+
+        public decimal RemDecimal(decimal a, decimal b)
+        {
+            return a % b;
+        }
+
+        public int PowInt(int a, int b)
+        {
+            return a ^ b;
+        }
+       
+        
+        
     }
 }

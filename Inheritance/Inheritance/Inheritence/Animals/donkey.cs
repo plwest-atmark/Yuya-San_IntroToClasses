@@ -4,20 +4,21 @@ using System.Text;
 
 namespace Inheritence.Animals
 {
-    class Dog : Animal  // See the "Cat" class for details
+    class Donkey : Animal
     {
-        public Dog() : base()
+        public Donkey() : base()
         {
 
         }
 
         public override void MakeAnimalSound()
         {
-            Console.WriteLine("Woof!");
+            Console.WriteLine("hee-haw!");
         }
         public override void PerformAnimalAction()
         {
-            Console.WriteLine("Chase Cat.");
+            Console.WriteLine("live longer than Horse");
         }
     }
+        
 }

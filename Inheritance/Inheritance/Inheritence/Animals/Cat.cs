@@ -20,6 +20,7 @@ namespace Inheritence.Animals
         /// </summary>
         public Cat() : base()
         {
+
         }
 
         /// <summary>
